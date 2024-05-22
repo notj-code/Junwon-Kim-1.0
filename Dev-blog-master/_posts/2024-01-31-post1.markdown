@@ -1,0 +1,13 @@
+---
+layout: post
+title: I finally made this blog
+date: 2024-01-30 21:53:23 +0900
+category: Jekill-Blog
+---
+# It is the first post
+> Hello.
+
+
+```ruby
+cout << "Hello.";
+```

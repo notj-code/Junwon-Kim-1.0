@@ -1,0 +1,106 @@
+---
+layout: post
+title: DataStructure--Stack(Java, Python, C++)
+date: 2024-02-09 22:59:23 +0900
+category: Data-Structure
+---
+
+
+A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, meaning that the last element added to the stack is the first one to be removed. Think of it like a stack of books or plates, where you can only add or remove items from the top of the stack.
+
+ 
+
+
+<p style="text-align: center">[1, 2, 3, 4, 5]</p>
+// add "88"   
+
+<p style="text-align: center">[1, 2, 3, 4, 5, 88]</p>
+
+// remove one
+<p style="text-align: center">[1, 2, 3, 4, 5]</p>
+
+Java
+======
+
+
+>    Java supports stack class, therefore, you can simply import the class and use it whatever you want.
+
+```java
+//// import class
+import java.util.Stack;
+
+class StackEx {
+    public static void main(String[] args) {
+        // make int stack
+        Stack<Integer> stackInt = new Stack<>();
+
+        // add data push()
+        stackInt.push(1);
+        stackInt.push(2);
+        stackInt.push(3);
+        // 1, 2, 3
+
+        // delete data
+        stackInt.pop();
+        stackInt.pop();
+        stackInt.pop();
+        // 3, 2, 1 delete
+
+        // add data add()
+        stackInt.add(1);
+        stackInt.add(2);
+        stackInt.add(3);
+        // 1, 2, 3 data
+
+        // delete all the data
+        stackInt.clear();
+    }
+}
+```
+
+Python
+======
+>  Python also supports Dequeue library. You can implement to use dequeue
+
+
+```Python
+###### Dequeue 라이브러리를 사용해서 스택을 구현 할 수 있다.
+import dequeue
+
+dq=deque() # make dqueue
+dq.append() # add data at the most right index
+dq.popleft() # return data at the most left index
+dq.appendleft() # add data at the most left index
+dp.pop() # return datd at the most right index
+dp.clear() # delete all the data
+dp.copy() # copy
+dp.count(x) # count the number of data which are same as x
+```
+
+
+C++
+====
+>   C++ basically supports STLstack.
+
+```C++
+#include <iostream>
+#include <stack>
+
+using namespace std;
+
+int main(int args , char** argv){
+    stack<int> s;
+
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    cout << "empty(0 is not empty, 1 is empty) : " << s.empty() << endl;
+    cout << "size : " << s.size() << endl;
+    cout << "stack values : ";
+    while(!s.empty()){
+        cout << s.top() << ' ';
+        s.pop();
+    }
+    cout << "\n" << "empty(0 is not empty, 1 is empty): " << s.empty() << endl ;    
+}
+```
