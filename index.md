@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Hi! My name is JunwonKim</a>.
+  Hi! My name is JunwonKim.
 </p>
 
 <p>
