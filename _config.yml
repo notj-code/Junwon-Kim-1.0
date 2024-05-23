@@ -1,11 +1,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
+title: Junwon Kim
 description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.
+  Student at @HarbinWanbangSchool.
 baseurl: "/bay" # the subpath of the site
-url: "https://eliottvincent.github.io" # the base hostname & protocol for the site
+url: "https://junwonkim.netlify.app" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
@@ -13,17 +13,21 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
+    - name: Resume
     - name: Blog
+    - name: Hi
 
 footer:
-  show_powered_by: true
+  show_powered_by: false
   contact:
+    - name: Email (in China)
+      value: junwonkim04@outlook.com
+      link: mailto:junwonkim04@outlook.com
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
+      value: junwonkim59@gmail.com
+      link: mailto:junwonkim59@gmail.com
+    - name: skype
+      value: JunwonKim
       link: "#"
   follow:
     - name: Twitter
@@ -32,9 +36,9 @@ footer:
     - name: Facebook
       link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/junwon-kim-954a662ab/
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link: http://github.com/notj-code
     - name: Dribbble
       link: https://dribbble.com/YourDribbbleUsername
     - name: RSS
