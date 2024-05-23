@@ -25,19 +25,12 @@ footer:
     - name: Email
       value: junwonkim59@gmail.com
       link: mailto:junwonkim59@gmail.com
-      
+
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
       link: https://www.linkedin.com/in/junwon-kim-954a662ab/
     - name: GitHub
       link: http://github.com/notj-code
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
     - name: RSS
       link: /feed.xml
 
