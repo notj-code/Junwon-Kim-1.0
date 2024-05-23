@@ -19,15 +19,13 @@ header:
 footer:
   show_powered_by: false
   contact:
-    - name: Email (in China)
+    - name: Email
       value: junwonkim04@outlook.com
       link: mailto:junwonkim04@outlook.com
     - name: Email
       value: junwonkim59@gmail.com
       link: mailto:junwonkim59@gmail.com
-    - name: skype
-      value: JunwonKim
-      link: "#"
+      
   follow:
     - name: Twitter
       link: http://twitter.com/YourTwitterUsername
