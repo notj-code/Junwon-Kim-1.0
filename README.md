@@ -18,8 +18,9 @@ primarily focusing on computer algorithms, engieneering, machine learning, and d
 - __2023 Winter:__ USACO Bronze award
 - __2023 Winter:__ ACSL Honorable Mention
 - __2024 summer:__ Software Engineering intern, Smooth
--------------------------
-My interests include playing guitar, band music and taking films.
+
+
+> My interests include playing guitar, band music and taking films.
 
 ### Contacts & Profiles/Websites
 <p>
