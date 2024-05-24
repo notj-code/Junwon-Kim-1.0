@@ -1,0 +1,178 @@
+---
+layout: post
+title: DataStructure--Queue(Java, Python, C++)
+date: 2024-02-08 20:43:23 +0900
+category: Data-Structure
+---
+
+A queue is a data structure that follows the First-In-First-Out (FIFO) principle, meaning that the first element added to the queue will be the first one to be removed. Imagine a queue as a line of people waiting for something, such as buying tickets at a movie theater. The person who arrives first (the first element added to the queue) will be the first to purchase their ticket and leave the line.
+
+ 
+
+
+<p style="text-align: center">[1, 2, 3, 4, 5]</p>
+// add "88"   
+
+<p style="text-align: center">[1, 2, 3, 4, 5, 88]</p>
+
+// remove one
+<p style="text-align: center">[2, 3, 4, 5, 88]</p>
+
+Java
+======
+
+>   Java supports queue class, therefore, you can simply use queue data-structure with few functions.
+
+```java
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class queue {
+
+    public static void main(String[] args) {
+        Queue<Integer> queue = new LinkedList<Integer>();
+
+        queue.offer(1); // 1
+        queue.offer(2); // 1 2
+        queue.offer(3); // 1 2 3
+        queue.offer(4); // 1 2 3 4
+        queue.offer(5); // 1 2 3 4 5
+
+        while(!queue.isEmpty()) {
+            System.out.println(queue.poll());
+        }
+
+    }
+
+}
+```
+Otherwise, you can also use list to implement queue.
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Queue<T> {
+    private List<T> queueList;
+
+    public Queue() {
+        queueList = new ArrayList<>();
+    }
+
+    // Method to add an element to the back of the queue
+    public void enqueue(T element) {
+        queueList.add(element);
+    }
+
+    // Method to remove and return the element at the front of the queue
+    public T dequeue() {
+        if (isEmpty()) {
+            throw new IllegalStateException("Queue is empty");
+        }
+        return queueList.remove(0);
+    }
+
+    // Method to view the element at the front of the queue without removing it
+    public T peek() {
+        if (isEmpty()) {
+            throw new IllegalStateException("Queue is empty");
+        }
+        return queueList.get(0);
+    }
+
+    // Method to check if the queue is empty
+    public boolean isEmpty() {
+        return queueList.isEmpty();
+    }
+
+    // Method to get the size of the queue
+    public int size() {
+        return queueList.size();
+    }
+
+    // Method to clear the queue
+    public void clear() {
+        queueList.clear();
+    }
+
+    // Method to display the contents of the queue
+    public void display() {
+        System.out.println("Queue: " + queueList);
+    }
+
+    public static void main(String[] args) {
+        Queue<Integer> queue = new Queue<>();
+        
+        // Enqueue elements
+        queue.enqueue(10);
+        queue.enqueue(20);
+        queue.enqueue(30);
+        
+        // Display queue
+        queue.display(); // Output: Queue: [10, 20, 30]
+        
+        // Dequeue an element
+        int dequeuedElement = queue.dequeue();
+        System.out.println("Dequeued element: " + dequeuedElement); // Output: Dequeued element: 10
+        
+        // Peek at the front element
+        int frontElement = queue.peek();
+        System.out.println("Front element: " + frontElement); // Output: Front element: 20
+        
+        // Display queue after dequeue
+        queue.display(); // Output: Queue: [20, 30]
+    }
+}
+
+```
+Python
+======
+>  Python supports queue module, so you can import it to use queue. Queue module supports queue, PriorityQueue, LifoQueue(stack)
+
+
+```Python
+import queue
+
+Q = queue.Queue()
+Q.put(1) # 1
+Q.put("could_dragon") # 1 cloud_dragon
+Q.qsize() # 2
+Q.get() # 1 (same as pop. Delete one)
+Q.qsize() # 1
+```
+To be specific, this be can like:
+```Python
+qlist = []
+
+def enqueue(qlist, data):
+    qlist.append(data)
+   
+def dequeue(qlist):
+    data = qlist[0]
+    del qlist[0]
+    return data
+```
+
+C++
+====
+>   C++ supports STLqueue, so you can use queue after include queue hash file on the header
+
+```C++
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+int main(void) {
+    queue<int>Q; // Make null int queue
+    Q.push(1); // 1
+    Q.push(2); // 1 2
+    Q.push(3); // 1 2 3
+    Q.pop(); // 1 2
+    Q.size(); // return the size of the queue
+    Q.front(); // return the most upper data of the queue
+    Q.back(); // return the lowest data of the queue
+}
+
+//Runtime Error can be occured, if you use pop() while the queue empty
+```
