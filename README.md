@@ -4,16 +4,22 @@ title: About me
 permalink: /about/
 ---
 
-## JunwonKim_김준원_金浚沅。
-> I'm a Korean student studying abroad at Harbin Wanbang School in China.                                                     
-안녕하세요. 중국에서 공부하는 고등학생 김준원입니다.
+# JunwonKim_김준원_金浚沅。
+> Hi! I'm a Korean student at Harbin Wanbang School in China.   
 
-### Skills & Experiences
-- C/C++/Go/Java/Python
-- HTML/CSS/JS, ReactJS, SveltKit, PocketBase
-- MongoDB, SQLite, FireBase
-- 1 year of competitive programming & studying algorithm
-- Photos 
+primarily focusing on computer algorithms, engieneering, machine learning, and data science.
+
+## School
+- Harbin Wanbang School (2021~Now)
+> in this school, I'm leading in Wanbang Computer Science team, Wanbang Developer Conference(WBDC), and Swimming Team
+
+## Experiences & Interests
+- __2020 Summer:__ Student Journalist, The Korea Herald
+- __2023 Winter:__ USACO Bronze award
+- __2023 Winter:__ ACSL Honorable Mention
+- __2024 summer:__ Software Engineering intern, Smooth
+-------------------------
+My interests include playing guitar, band music and taking films.
 
 ### Contacts & Profiles/Websites
 <p>
@@ -33,8 +39,6 @@ permalink: /about/
   <a href="https://codeup.kr/userinfo.php?user=junwonkim59" target="_blank"><img src="https://img.shields.io/badge/CodeUp-154881?style=flat-square&logo=C&logoColor=white"/></a>
 </p>
 </p>
-
-### This blog is for
-> Archiving my school life?       
+  
 
 
