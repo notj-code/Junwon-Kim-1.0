@@ -4,7 +4,7 @@
 title: Junwon Kim
 description: >- # this means to ignore newlines until "baseurl:"
   Student at @HarbinWanbangSchool.
-baseurl: "/junwon" # the subpath of the site
+baseurl: "/" # the subpath of the site
 url: "https://junwonkim.netlify.app" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
