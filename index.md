@@ -6,9 +6,9 @@ profile_picture:
 ---
 
 <p>
-  Hi! My name is JunwonKim.
+  Hi! My name is JunwonKim from Korea.
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  I'm a student at Harbin Wanbang School in China.
 </p>
