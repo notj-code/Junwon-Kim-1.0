@@ -20,20 +20,19 @@ permalink: /about/
 - __2020 Summer:__ Student Journalist, The Korea Herald (1 yrs.)
 - __2023 Winter:__ ACSL Honorable Mention, USACO Bronze award
 - __2024 summer:__ Software Engineering intern, Smooth
-- </p>
+- <b>
         <a href="https://sajin07.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/PhotoWorks-000000?style=flat-square&logo=Sony&logoColor=white"/></a>
-</p>
-
+</b>
 
 ## 3. Contacts & Profiles/Websites
 
-- <p>
+- <b>
         <a href="mailto:junwonkim59@gmail.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim59@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
           <a href="mailto:junwonkim04@outlook.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim04@outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white"/></a>
-</p>
+</b>
 
-- <p>
+- <b>
           <a href="https://www.linkedin.com/in/junwon-kim-954a662ab/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="https://codeforces.com/profile/junwonkim0416" target="_blank"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=Codeforces&logoColor=white"/></a>
           <a href="https://github.com/notj-code" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></a>
-  
+</b>
