@@ -21,8 +21,8 @@
 title: Junwon Kim
 email: junwonkim59@gmail.com / junwonkim04@outlook.com
 description:
-# baseurl: "/" # the subpath of your site, e.g. /blog
-# url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/about" # the subpath of your site, e.g. /blog
+url: "https://junwonkim.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: notj-code
 highlighter: rouge
 svg:
