@@ -27,8 +27,10 @@ int main()
         cout<<-1;
 }
 ```
+
 간단한 구현문제이다. 하지만 위와 같이 단순하게 풀수도 있고, 아니면                 
-Simple implementation problem. You can just solve this like above or            
+Simple implementation problem. You can just solve this like above or  
+
 ```C++
 #include <iostream>
 using namespace std;
@@ -83,7 +85,9 @@ int main()
         cout << -1;
     }
 }
+
 ```
+
 써지는 대로 쉽게 풀수도 있다.       
 첫번째 방법이 더욱 효율적인 풀이이다.          
 
