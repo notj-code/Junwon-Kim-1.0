@@ -1,0 +1,45 @@
+---
+layout: post
+title: CSES Problem Set--Distinct Numbers
+date: 2024-05-30 22:59:23 +0900
+category: ProblemSolving
+---
+
+> Question: 
+You are given a list of 
+𝑛
+n integers, and your task is to calculate the number of distinct values in the list.
+
+- __Input__: 
+The first input line has an integer 𝑛: the number of values. The second line has 𝑛 integers 
+
+- __Output__:
+Print one integers: the number of distinct values.
+
+Input:
+
+5
+2 3 2 2 3
+
+Output:
+
+2
+
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int N;
+	cin >> N;
+	vector<int> arr(N);
+	for (int i = 0; i < N; i++) cin >> arr[i];
+	sort(arr.begin(), arr.end());
+	int ans = 1;
+	for (int i = 1; i < N; i++) {
+		ans += (arr[i] != arr[i - 1]);
+	}
+	cout << ans << "\n";
+	return 0;
+}
+```
