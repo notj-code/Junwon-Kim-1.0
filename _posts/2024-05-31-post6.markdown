@@ -1,7 +1,7 @@
 ---
-layout: post
-title: CSES_Problem_Set--Permutation
-date: 2024-05-31 22:59:23 +0900
+layout: post 
+title: CSES_Problem_Set--Permutation 
+date: 2024-05-31 22:59:23 +0900 
 category: ProblemSolving
 ---
 
