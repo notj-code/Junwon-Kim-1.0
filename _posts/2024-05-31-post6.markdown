@@ -36,10 +36,6 @@ NO SOLUTION
 using namespace std;
 
 int main() {
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
 	int n;
 	cin >> n; // 6
 	vector<int> v(n);
