@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSES_Problem_Set--Distinct_Numbers
+title: CSES_Problem_Set--Distinct_Number
 date: 2024-05-30 22:59:23 +0900
 category: ProblemSolving
 ---
