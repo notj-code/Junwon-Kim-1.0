@@ -6,6 +6,7 @@ permalink: /about/
 
 # JunwonKim_김준원_金浚沅。
 > Hi! I'm a Korean student at Harbin Wanbang School in China.   
+
 -  primarily focusing on __computer algorithms__, __engieneering__, __machine learning__, and __computer hardware__.
 
 - My interests include __competitive programming__, __developing weird stuff__, __taking photos__ and, __playing guitar__
