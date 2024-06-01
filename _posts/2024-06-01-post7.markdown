@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSES_Problem_Set--Permutation
-date: 2024-05-31 22:59:23 +0900
+date: 2024-06-01 22:59:23 +0900
 category: ProblemSolving
 ---
 
@@ -14,7 +14,6 @@ The only input line contains an integer $n$.
 
 - __Output__:
 Print a beautiful permutation of integers 1,2,...,$n$. If there are several solutions, you may print any of them. If there are no solutions, print "NO SOLUTION".
-
 ```
 Input:
 5
@@ -22,7 +21,6 @@ Input:
 Output:
 4 2 5 3 1
 ```
-
 ```
 Input:
 3
@@ -31,7 +29,9 @@ Output:
 
 NO SOLUTION
 ```
-```c++ 
+
+
+```c++
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -60,3 +60,4 @@ int main()
   return 0;
 }
 ```
+
