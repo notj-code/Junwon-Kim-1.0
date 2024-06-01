@@ -1,33 +1,29 @@
 ---
 layout: post
-title: CSES_Problem_Set--Permutation
+title: CSES_Problem_Set--Apartment
 date: 2024-06-01 22:59:23 +0900
 category: ProblemSolving
 ---
 
 > Question: 
-A permutation of integers 1,2,...,$n$ is called beautiful if there are no adjacent elements whose difference is 1.
-Given $n$, construct a beautiful permutation if such a permutation exists.
+There are n applicants and $m$ free apartments. Your task is to distribute the apartments so that as many applicants as possible will get an apartment.
+Each applicant has a desired apartment size, and they will accept any apartment whose size is close enough to the desired size.
 
 - __Input__: 
-The only input line contains an integer $n$.
+The first input line has three integers $n$, $m$, and $k$: the number of applicants, the number of apartments, and the maximum allowed difference.
+The next line contains n integers $a_1$, $a_2$, $\ldots$, $a_n$: the desired apartment size of each applicant. If the desired size of an applicant is $x$, he or she will accept any apartment whose size is between $x-k$ and $x+k$.
+The last line contains $m$ integers $b_1, b_2, \ldots, b_m$: the size of each apartment.
 
 - __Output__:
-Print a beautiful permutation of integers 1,2,...,$n$. If there are several solutions, you may print any of them. If there are no solutions, print "NO SOLUTION".
+Print one integer: the number of applicants who will get an apartment.
 ```
 Input:
-5
+4 3 5
+60 45 80 60
+30 60 75
 
 Output:
-4 2 5 3 1
-```
-```
-Input:
-3
-
-Output: 
-
-NO SOLUTION
+2
 ```
 
 
@@ -36,28 +32,10 @@ NO SOLUTION
 
 using namespace std;
 
-int main()
-{
-  long long n;cin>>n;
-  if (n == 1)
-  {
-    cout << n << "/n";
-    exit(0);
-  }
-  if (n <= 3)
-      cout << "NO SOLUTION" << endl;
-  else
-  {
-    int start = n & 1 ? n - 1:n;
-    for (int i = start - 1; i > 0; i = i - 2)
-      cout << i << " ";
-    for (int i = start; i >= 2; i = i - 2)
-      cout << i << " ";
-    if (n & 1)
-      cout << n;
-    cout << "\n";
-  }
-  return 0;
+int main() {
+  int n;
+  cin >> n;
+  
 }
 ```
 
