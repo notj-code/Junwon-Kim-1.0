@@ -1,7 +1,7 @@
 ---
 layout: post
-title: CSES_Problem_Set--Apartment
-date: 2024-06-01 22:59:23 +0900
+title: Baekjoon--수학은_체육과목_입니다
+date: 2024-06-06 22:59:23 +0900
 category: ProblemSolving
 ---
 
