@@ -24,13 +24,20 @@ category: ProblemSolving
 
 ```
 Input:
-4 3 5
-60 45 80 60
-30 60 75
+1
 
 Output:
-2
+4
 ```
+```
+Input:
+3
+
+Output:
+12
+```
+
+
 ```c++
 #include<bits/stdc++.h>
 
