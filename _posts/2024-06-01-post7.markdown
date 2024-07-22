@@ -58,7 +58,7 @@ void solve() {
 		if (abs(a[i] - b[j]) <= k) {
 			++i;
 			++j;
-			++ans;
+			++a;
 		} else {
 			// If the desired apartment size of the applicant is too big,
 			// move the apartment pointer to the right to find a bigger one

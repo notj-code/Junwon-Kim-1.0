@@ -44,28 +44,10 @@ Output:
 using namespace std;
 
 int main() {
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    string arr[5][15] = {"*"}, a;
-    int j=0;
-
-    
-    for (int i=0; i<5; i++) {
-        cin >> a;
-        for (auto x: a) {
-            arr[i][j++] = x;
-        }
-        j=0;
-    }
-
-    for (int i=0; i<15; i++) {
-        for (int j=0; j<5; j++) {
-            if (arr[j][i]!="*") {cout << arr[j][i];}
-        }
-    }
-}
+  long long n;
+  cin >> n;
+  if (n==0) {cout << 0;} 
+  else if (n>0) {cout << 4*n;}
 }
 ```
 
