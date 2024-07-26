@@ -1,32 +1,62 @@
-#include<bits/stdc++.h>
+
+#include <bits/stdc++.h>
+
 using namespace std;
 
+struct Student {
+    char gender;
+    vector<string> friends;
+};
+
 int main() {
-  int arr[100][100], n, cnt=0;
-  for (int i=0; i<100; i++) {
-    for (int j=0; j<100; j++) {
-      arr[i][j] = 1;
+    int n;
+    cin >> n;
+    cin.ignore();
+
+    unordered_map<string, Student> students;
+
+    for (int i = 0; i < n; ++i) {
+        string line;
+        getline(cin, line);
+        stringstream ss(line);
+
+        string name, gender_str, age_str;
+        getline(ss, name, ',');
+        getline(ss, gender_str, ',');
+        getline(ss, age_str, ',');
+
+        Student student;
+        student.gender = gender_str[0];
+
+        string friend_name;
+        while (getline(ss, friend_name, ',')) {
+            student.friends.push_back(friend_name);
+        }
+
+        students[name] = student;
     }
-  }
-  cin >> n;
-  int l[n], d[n];
-  for (int i=0; i<n; i++) {
-    cin >>l[i] >> d[i];
-  }
 
-  for (int i=0; i<n; i++) {
-    for (int j=0; j<l[i]; j++) {
-      for (int k=0; k<d[i]; k++) {
-        arr[j][k] = 0;
-      }
-    } 
-  }
+    string query_name;
+    getline(cin, query_name);
 
-  for (int i=0; i<100; i++) {
-    for (int j=0; j<100; j++) {
-      cnt += arr[i][j];
+    int male_count = 0;
+    int female_count = 0;
+
+    if (students.find(query_name) != students.end()) {
+        for (const string& friend_name : students[query_name].friends) {
+            if (students.find(friend_name) != students.end()) {
+                if (students[friend_name].gender == 'M') {
+                    ++male_count;
+                } else if (students[friend_name].gender == 'F') {
+                    ++female_count;
+                }
+            }
+        }
     }
-  }
 
-  cout << cnt;
+    // 결과 출력
+    cout << male_count << endl;
+    cout << female_count << endl;
+
+    return 0;
 }
