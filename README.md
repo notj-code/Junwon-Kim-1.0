@@ -9,23 +9,41 @@ permalink: /about/
 
 -  primarily focusing on __computer algorithms__, __engieneering__, __machine learning__, and __computer hardware__.
 
-- My interests include __competitive programming__, __developing weird stuff__, __taking photos__ and, __playing guitar__
+- My interests include __competitive programming__, __developing software__, __photography__ and, __playing guitar__
 
 ## 1. School
 - __Harbin Wanbang School__ (2021~Now)
-> 1. in this school, I'm leading __Wanbang Computer Science team__, __Wanbang Developer Conference(WBDC)__, and __Swimming Team__
-> 2. I'm also involved in __Wanbang Debate Initiative (WDI)__, __Wanbang Elec. Guitar Team__.
+> 1. in this school, I'm leading __Wanbang Computer Science team__ and  __Wanbang Developer Conference(WBDC)__
+> 2. I'm also involved in __School Swimming Team__, __School Bandteam__.
 > 
 
-## 2. Experiences & Interests
-- __2020 Summer:__ Student Journalist, The Korea Herald (1 yrs.)
-- __2023 Winter:__ ACSL Honorable Mention, USACO Bronze award
+## 2. Experiences
 - __2024 summer:__ Software Engineering intern, Smooth
+- __2023 Winter:__ USA Computer Olympiad Silver Award (2023 December Contest)
+- __2020 Summer:__ Student Journalist, The Korea Herald (1 yrs.)
+
+
 - <b>
         <a href="https://sajin07.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/PhotoWorks-000000?style=flat-square&logo=Sony&logoColor=white"/></a>
 </b>
 
-## 3. Contacts & Profiles/Websites
+## 3. Tech. Stacks
+- __Frontend Developing experience__: HTML/CSS/JS, Vue.js
+- __Backend Developing experience__: SupaBase, PocketBase, mySQL, MongoDB
+- __Language__: C/C++, JAVA, GO, Python, Rust, Solidity
+> 1. __WBOJ (Wanbang Online Judge, 2023 fall)__ : [wboj.app](wboj.app), currently around 80 people using this.
+>>I made this service for the people who want to practice computer algorithm or competitive program. I used __Qingdao University's opensource project__ to implement school online judge service.
+
+
+>2. __Photo Gallery (2022 fall)__: [photog.cf](photog.cf)
+>> Simple photo gallery service. People can upload and share their photo. 
+
+>3. __Bucket (2024 fall)__: [bucket.app](bucket.app)
+>> Roadtrip guide service. Optimized for the people who don't have idea where to go.
+
+
+
+## 3. Contacts & Profiles
 
 - <b>
         <a href="mailto:junwonkim59@gmail.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim59@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
