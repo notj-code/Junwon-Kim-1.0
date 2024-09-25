@@ -1,62 +1,37 @@
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
-struct Student {
-    char gender;
-    vector<string> friends;
-};
-
 int main() {
-    int n;
-    cin >> n;
-    cin.ignore();
-
-    unordered_map<string, Student> students;
-
-    for (int i = 0; i < n; ++i) {
-        string line;
-        getline(cin, line);
-        stringstream ss(line);
-
-        string name, gender_str, age_str;
-        getline(ss, name, ',');
-        getline(ss, gender_str, ',');
-        getline(ss, age_str, ',');
-
-        Student student;
-        student.gender = gender_str[0];
-
-        string friend_name;
-        while (getline(ss, friend_name, ',')) {
-            student.friends.push_back(friend_name);
-        }
-
-        students[name] = student;
+    deque<int> a;
+    deque<int> aR;
+    int buf;
+    int sum = -100;
+    for (int i=0; i<9; i++) {
+        cin >> buf;
+        a.push_back(buf);
+        sum+=100;
     }
 
-    string query_name;
-    getline(cin, query_name);
+    sort(a.begin(), a.end());
+    int breakAll=0;
 
-    int male_count = 0;
-    int female_count = 0;
+    for (int i=0; i<9; i++) {
+        if (breakAll) {break;}
+        for (int j=0; j<9; j++) {
+            if ((i != j)&&(sum ==  a[i]+a[j])) {
+                int max = j > i ? j : i;
+                int min = j < i ? j : i;
+                a.erase(a.begin() + max);
+                a.erase(a.begin() + min);
 
-    if (students.find(query_name) != students.end()) {
-        for (const string& friend_name : students[query_name].friends) {
-            if (students.find(friend_name) != students.end()) {
-                if (students[friend_name].gender == 'M') {
-                    ++male_count;
-                } else if (students[friend_name].gender == 'F') {
-                    ++female_count;
-                }
+                breakAll = 1;
+                break;
             }
         }
     }
 
-    // 결과 출력
-    cout << male_count << endl;
-    cout << female_count << endl;
-
-    return 0;
+    for (auto x: a) {
+        cout << x << "\n";
+    }
 }
