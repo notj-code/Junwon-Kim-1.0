@@ -43,7 +43,7 @@ permalink: /about/
 
 
 
-## 3. Contacts & Profiles
+## 4. Contacts & Profiles
 
 - <b>
         <a href="mailto:junwonkim59@gmail.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim59@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
