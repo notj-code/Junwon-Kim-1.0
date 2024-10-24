@@ -17,10 +17,10 @@ permalink: /about/
 > 2. I'm also involved in __School Swimming Team__, __School Bandteam__.
 > 
 
-## 2. Experiences
-- __2024 summer:__ Software Engineering intern, Smooth
+## 2. Activity & Experiences
+- __2024 summer:__ Software Engineering intern, Smooth (2 month)
 - __2023 Winter:__ USA Computer Olympiad Silver Award (2023 December Contest)
-- __2020 Summer:__ Student Journalist, The Korea Herald (1 yrs.)
+- __2020 Summer:__ Student Journalist, The Korea Herald (0)
 
 
 - <b>

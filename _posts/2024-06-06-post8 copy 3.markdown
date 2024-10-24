@@ -1,0 +1,38 @@
+---
+layout: post
+title: Relative Clause
+date: 2024-10-24 22:59:23 +0900
+category: English
+---
+
+
+# Relative Clause
+## Examples of Relative Clauses
+- The windows **that you installed last year** have warped.
+- Kindness is the language **which the deaf can hear and the blind can see**. (Writer Mark Twain)
+- The follies **which a man regrets most in his life** are those **which he didn't commit when he had the opportunity**. (US journalist Helen Rowland)
+(Even though this is a quotation by an American journalist, nowadays, most writers in the US would use "that" instead of "which." There's more on this below.)
+
+
+## The Traits of a Relative Clause
+1. A relative clause is headed by a relative pronoun ("who," "whom," "whose," "that," or "which") or a relative adverb ("when," "where," or "why"), which links it to the noun it is modifying.
+2. A relative clause has a subject and a verb. 
+3. A relative clause tells us something about the noun.
+
+## Common Mistakes
+> **Should I use a comma before "which?**
+
+- Do not put commas around your clause if it is essential; i.e., it is required to identify its noun. (This is called a restrictive clause.)
+- Do use commas if your clause is just additional information. (This is called a non-restrictive clause.)
+
+
+### Examples
+1. My brother, who claimed to have a limp, sprinted after the bus. correct tick
+(This clause is not required to identify "My brother." It is just additional information.)
+2. My brother (who claimed to have a limp) sprinted after the bus. correct tick
+(As it's just additional information, you can put it in brackets.)
+3. My brother sprinted after the bus. correct tick
+(As it's just additional information, you can even delete it.)
+
+
+> 
