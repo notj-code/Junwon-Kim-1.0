@@ -1,0 +1,66 @@
+---
+layout: post
+title: Codeforces-1624D
+date: 2024-10-26 22:59:23 +0900
+category: ProblemSolving
+---
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+class A {
+    public:
+        string a;
+        int b, c, d;
+};
+
+bool compare(A a, A b) {
+    return (a.b>b.b);
+}
+
+bool compareA(A a, A b) {
+    return (a.c > b.c);
+ }
+
+bool compareB(A a, A b) {
+    return (a.d>b.d);
+}
+
+int main() {
+    int n;
+    cin >> n;
+    A k[n];
+    for (int i=0; i<n; i++) {
+        cin >> k[i].a >> k[i].b >> k[i].c >> k[i].d;
+    }
+
+    sort(k, k+n, compare);
+    int s, nn;
+    s = k[0].c;
+    nn = k[0].d;
+
+    cout << k[0].a << " ";
+
+    sort(k, k+n, compareA);
+
+
+    for (int i=0; i<n; i++) {
+        if (k[i].c==s) {
+            cout << i+1 << " ";
+            break;
+        }
+    }
+    sort(k, k+n, compareB);
+
+    for (int i=0; i<n; i++) {
+        if (k[i].d==nn) {
+            cout << i+1 << " ";
+            break;
+        }
+    }
+    
+
+}
+
+```

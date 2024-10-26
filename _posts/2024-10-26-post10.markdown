@@ -1,0 +1,69 @@
+---
+layout: post
+title: Codeforces-1624D
+date: 2024-10-26 22:59:23 +0900
+category: ProblemSolving
+---
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+void solve() {
+    // n: 퀘스트의 수, k: 최대 완료 가능한 퀘스트의 수
+    long long n, k;
+    cin >> n >> k;
+
+    vector<long long> a(n);  // 처음 완료 시 얻는 경험치
+    vector<long long> b(n);  // 반복 완료 시 얻는 경험치
+
+    // 처음 완료 시 얻는 경험치 입력 받기
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    // 반복 완료 시 얻는 경험치 입력 받기
+    for (int i = 0; i < n; i++) {
+        cin >> b[i];
+    }
+
+    long long max_experience = 0;  // 최대 경험치 저장 변수
+    long long first_complete_experience = 0;  // 첫 번째 완료 경험치의 합
+    long long max_repeat_experience = 0;  // 반복 완료 시 최대 경험치
+
+    // 최대 경험치를 계산하는 반복문
+    for (int i = 0; i < n; i++) {
+        if (i < k) {  // k보다 작은 경우, 첫 번째 완료 가능
+            first_complete_experience += a[i];  // 첫 번째 완료 시 얻는 경험치 더하기
+            max_repeat_experience = max(max_repeat_experience, b[i]);  // 반복 완료 시 최대 경험치 갱신
+            // 최대 경험치 계산
+            max_experience = max(max_experience, first_complete_experience + (k - i - 1) * max_repeat_experience);
+        } else {
+            break;  // 더 이상 퀘스트를 완료할 수 없으면 반복 종료
+        }
+    }
+
+    cout << max_experience << endl;  // 최대 경험치 출력
+}
+
+
+
+
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int test_cases;
+    cin >> test_cases;  // 테스트 케이스 입력 받기
+
+    // 각 테스트 케이스 처리
+    for (int t = 0; t < test_cases; t++) {
+        solve();
+    }
+
+    return 0;
+}
+```

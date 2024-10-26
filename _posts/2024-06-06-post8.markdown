@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Baekjoon--수학은_체육과목_입니다
+title: BOJ-15894 solution(CPP)
 date: 2024-06-06 22:59:23 +0900
 category: ProblemSolving
 ---
