@@ -1,6 +1,0 @@
----
-layout: post
-title: CSES-1641
-date: 2024-10-26 22:59:23 +0900
-category: ProblemSolving
----
