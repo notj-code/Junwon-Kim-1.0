@@ -107,3 +107,10 @@ vector<int> noMoveB;
     return max(result, noMoveB);
 
 
+3
+5
+4 3 2 1 3
+6
+5 1 2 6 3 4
+6
+4 1 3 2 1 1
