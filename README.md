@@ -18,9 +18,9 @@ permalink: /about/
 > 
 
 ## 2. Activity & Experiences
-- __2024 summer:__ Software Engineering intern, Smooth (2 month)
-- __2023 Winter:__ USA Computer Olympiad Silver Award (2023 December Contest)
-- __2020 Summer:__ Student Journalist, The Korea Herald (0)
+- __2024 winter:__ USA Computer Olympiad Silver Award (2025 February Contest)
+- __2024 summer:__ Software Engineering intern, Smooth (2 months)
+- __2020 Summer:__ Student Journalist, The Korea Herald
 
 
 - <b>
