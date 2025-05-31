@@ -41,13 +41,13 @@ permalink: /about/
   3. Re-implemented handwritten character recognition on BitTensor and deployed a token to a Decentralized Exchange.
 
 - **Founder** | Wanbang Competitive Programming Initiative (2024 Spring)
-  1. Developed the **WBOJ (Wanbang Online Judge)** platform ([wboj.app](wboj.app)).
+  1. Developed the **WBOJ (Wanbang Online Judge)** platform ([wboj.app](https://wboj.app)).
   2. Organized and held competitive programming contests (WBDC) within the school.
 
 - **Leader** | School Computer Science Club (Rhythm) (2023 Spring - 2025 Spring)
   1. Revised curriculum for Computer System, Circuit Theory, and Algorithm Problem Solving.
-  2. Developed a Q&A platform for team members ([wbrhythm.netlify.app](wbrhythm.netlify.app)).
-  3. Documented learning resources ([wbcslearning.netlify.app](wbcslearning.netlify.app)).
+  2. Developed a Q&A platform for team members ([wbrhythm.netlify.app](https://wbrhythm.netlify.app)).
+  3. Documented learning resources ([wbcslearning.netlify.app](https://wbcslearning.netlify.app)).
 
 - **Student Journalist** | @The Korea Herald (2020 Summer)
 
