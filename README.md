@@ -5,56 +5,71 @@ permalink: /about/
 ---
 
 # JunwonKim_김준원_金浚沅。
-> Hi! I'm a Korean student at Harbin Wanbang School in China.   
+> Hi! I'm a Korean student currently studying at **Qingdao Daewon International School**. I've cultivated a strong foundation in computer science and developed a passion for leadership rooted in devotion, commitment, and effective communication.
 
--  primarily focusing on __computer algorithms__, __engieneering__, __machine learning__, and __computer hardware__.
-
-- My interests include __competitive programming__, __developing software__, __photography__ and, __playing guitar__
-
-## 1. School
-- __Harbin Wanbang School__ (2021~2025)
-> 1. in this school, I'm leading __Wanbang Computer Science team__ and  __Wanbang Developer Conference(WBDC)__
-> 2. I'm also involved in __School Swimming Team__, __School Bandteam__.
-> 
-
-## 2. Activity & Experiences
-- __2024 winter:__ USA Computer Olympiad Silver Award (2025 February Contest)
-- __2024 summer:__ Software Engineering intern, Smooth (2 months)
-- __2020 Summer:__ Student Journalist, The Korea Herald
-
-
-- <b>
-        <a href="https://sajin07.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/PhotoWorks-000000?style=flat-square&logo=Sony&logoColor=white"/></a>
-</b>
-
-## 3. Tech. Stacks
-- __Frontend Developing experience__: HTML/CSS/JS, Vue.js
-- __Backend Developing experience__: SupaBase, PocketBase, mySQL, MongoDB
-- __Language__: C/C++, JAVA, GO, Python, Rust, Solidity
+- My primary areas of study are **computer algorithms**, **machine learning**, and **computer hardware**.
+- In my free time, I'm involved in **competitive programming**, **software development**, **photography**, and **playing guitar**. I believe in the power of collaboration, and I'm dedicated to empowering others and building initiatives that foster collective growth.
 
 
 
-> 1. __WBOJ (Wanbang Online Judge, 2023 fall)__ : [wboj.app](wboj.app), currently around 80 people using this.
->>I made this service for the people who want to practice computer algorithm or competitive program. I used __Qingdao University's opensource project__ to implement school online judge service.
+## 1. Education & School Involvement
+
+- **Qingdao Daewon International School** (2025-2026)
+  1. Daewon GLP (Global Leadership Program)
+
+- **Harbin Wanbang School** (2021-2025)
+  1. Led the **Wanbang Computer Science Team** and the **Wanbang Competitive Programming Initiative (WBCPI)**.
+  2. Actively participated in the **School Swimming Team** as a **captain** and **School Band** as a **session electric guitarist**.
 
 
->2. __Photo Gallery (2022 fall)__: [photog.cf](photog.cf)
->> Simple photo gallery service. People can upload and share their photo. 
 
->3. __Bucket (2024 fall)__: [bucket.app](bucket.app)
->> Roadtrip guide service. Optimized for the people who don't have idea where to go.
+## 2. Activities & Experiences
 
+- **Cloud Computing Engineer (CCE)** | @Verizon (2025 Spring)
+  1. Member of the Verizon Cloud Platform Department (CP), reporting to the VP.
+  2. Responsible for the delivery and design of internal cloud computing services (servers, storage, database, software, analytics, intelligence).
+
+- **Former Team Member (Content Author)** | @Competitive Programming Initiative (2024 Spring - 2025 Spring)
+  1. Contributed to the USACO Guide by writing content (modules, problem solutions).
+  2. Conducted code reviews for incoming Pull Requests.
+
+- **USACO (USA Computing Olympiad) Silver Award** (February 2025 Contest)
+
+- **Software Engineering Intern** | @Smooth (2024 Summer)
+  1. Developed code for handwritten character recognition using a convolutional neural network.
+  2. Explored Recurrent Neural Networks, Reinforcement Learning, and Generative Adversarial Networks.
+  3. Re-implemented handwritten character recognition on BitTensor and deployed a token to a Decentralized Exchange.
+
+- **Founder** | Wanbang Competitive Programming Initiative (2024 Spring)
+  1. Developed the **WBOJ (Wanbang Online Judge)** platform ([wboj.app](wboj.app)).
+  2. Organized and held competitive programming contests (WBDC) within the school.
+
+- **Leader** | School Computer Science Club (Rhythm) (2023 Spring - 2025 Spring)
+  1. Revised curriculum for Computer System, Circuit Theory, and Algorithm Problem Solving.
+  2. Developed a Q&A platform for team members ([wbrhythm.netlify.app](wbrhythm.netlify.app)).
+  3. Documented learning resources ([wbcslearning.netlify.app](wbcslearning.netlify.app)).
+
+- **Student Journalist** | @The Korea Herald (2020 Summer)
+
+
+<!-- 
+## 3. Technical Skills
+
+- **Frontend Development**: HTML/CSS/JS, Vue.js
+- **Backend Development**: SupaBase, PocketBase, MySQL, MongoDB, Django
+- **Languages**: C/C++, Java, Go, Python, Rust, Solidity
+ -->
 
 
 ## 4. Contacts & Profiles
 
-- <b>
-        <a href="mailto:junwonkim59@gmail.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim59@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
-          <a href="mailto:junwonkim04@outlook.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim04@outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white"/></a>
+<b>
+  <a href="mailto:junwonkim59@gmail.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim59@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
+  <a href="mailto:junwonkim04@outlook.com" target="_blank"><img src="https://img.shields.io/badge/junwonkim04@outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white"/></a>
 </b>
 
-- <b>
-          <a href="https://www.linkedin.com/in/junwon-kim-954a662ab/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<b>
+  <a href="https://www.linkedin.com/in/junwon-kim-954a662ab/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
   <a href="https://codeforces.com/profile/junwonkim0416" target="_blank"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=Codeforces&logoColor=white"/></a>
-          <a href="https://github.com/notj-code" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></a>
+  <a href="https://github.com/notj-code" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></a>
 </b>
