@@ -12,7 +12,7 @@ permalink: /about/
 - My interests include __competitive programming__, __developing software__, __photography__ and, __playing guitar__
 
 ## 1. School
-- __Harbin Wanbang School__ (2021~Now)
+- __Harbin Wanbang School__ (2021~2025)
 > 1. in this school, I'm leading __Wanbang Computer Science team__ and  __Wanbang Developer Conference(WBDC)__
 > 2. I'm also involved in __School Swimming Team__, __School Bandteam__.
 > 
